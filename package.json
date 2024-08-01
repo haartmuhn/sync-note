@@ -2,24 +2,21 @@
   "name": "JATE",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start": "node server/server.js",
+    "install": "npm install --prefix client",
+    "build": "npm run build --prefix client"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["text editor", "PWA", "offline"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
   }
 }
