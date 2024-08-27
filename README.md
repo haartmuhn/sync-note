@@ -73,8 +73,11 @@ Open your browser and go to `http://localhost:3000` to start using Sync Note.
     -   Installable PWA for easy access.
     -   Works offline with cached assets.
 
+The following image and video shows the web application's appearance and functionality: 
 
 <div align="center">
+
+![alt text](./assets/images/sync-note.png)
 
 [Visit my website](https://sync-note.onrender.com/)
 
